@@ -21,7 +21,8 @@ class BooksImport implements ToModel, WithHeadingRow
             'year' => $row['tahun_terbit'],
             'publisher' => $row['penerbit'],
             'city' => $row['kota_terbit'],
-            'bookshelf_id' => 1
+            'bookshelf_id' => 1,
+            'category_id'  =>1
         ]);
     }
 }
